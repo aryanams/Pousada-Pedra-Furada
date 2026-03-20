@@ -1,0 +1,21 @@
+{
+  "name": "pousada-pedra-furada",
+  "version": "1.0.0",
+  "description": "Aplicação web SPA desenvolvida em **Next.js**, com foco em **CI/CD**, **TDD** e **boas práticas de versionamento**.",
+  "keywords": [],
+  "homepage": "https://github.com/aryanams/Pousada-Pedra-Furada#readme",
+  "bugs": {
+    "url": "https://github.com/aryanams/Pousada-Pedra-Furada/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aryanams/Pousada-Pedra-Furada.git"
+  },
+  "license": "MIT",
+  "author": "Aryana de Morais Santos",
+  "type": "commonjs",
+  "main": "next.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

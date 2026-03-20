@@ -17,7 +17,7 @@ Aplicação web SPA desenvolvida em **Next.js**, com foco em **CI/CD**, **TDD** 
 
 ##  Instalação 
 ```bash 
-git clone https://github.com/seuusuario/pousada-pedra-furada.git 
+git clone https://github.com/aryanams/pousada-pedra-furada.git 
 cd pousada-pedra-furada 
 npm install 
 npm run dev
