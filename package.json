@@ -16,12 +16,13 @@
   "type": "commonjs",
   "main": "next.config.js",
   "scripts": {
-    "dev": "next dev", 
-    "build": "next build", 
-    "start": "next start", 
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
     "test": "jest --watchAll"
   },
   "devDependencies": {
+    "@babel/preset-react": "^7.28.5",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.2",
     "@testing-library/user-event": "^14.6.1",
@@ -29,5 +30,10 @@
     "identity-obj-proxy": "^3.0.0",
     "jest": "^30.3.0",
     "jest-environment-jsdom": "^30.3.0"
+  },
+  "dependencies": {
+    "next": "^16.2.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
   }
 }
