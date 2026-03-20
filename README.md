@@ -1,4 +1,5 @@
 # Pousada Pedra Furada - Sistema de Gestão de Tarefas 
+
 Aplicação web SPA desenvolvida em **Next.js**, com foco em **CI/CD**, **TDD** e **boas práticas de versionamento**. 
 
 ## Tecnologias 
