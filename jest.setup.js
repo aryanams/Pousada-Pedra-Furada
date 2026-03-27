@@ -12,3 +12,8 @@ console.warn = (...args) => {
   } 
   originalWarn(...args); 
 };
+
+// Corrige erro "TextEncoder is not defined" 
+import { TextEncoder, TextDecoder } from "util"; 
+if (!global.TextEncoder) global.TextEncoder = TextEncoder; 
+if (!global.TextDecoder) global.TextDecoder = TextDecoder;
