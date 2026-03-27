@@ -47,6 +47,6 @@ describe("App.jsx — Roteamento principal da SPA", () => {
         <App /> 
       </MemoryRouter> 
     ); 
-    expect(screen.getByText("Páginanão encontrada")).toBeInTheDocument(); 
+    expect(screen.getByText("Página não encontrada")).toBeInTheDocument(); 
   }); 
 });
